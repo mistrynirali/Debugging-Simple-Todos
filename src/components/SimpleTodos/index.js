@@ -62,14 +62,14 @@ class SimpleTodos extends Component {
         <div className="simple-todos-container">
           <h1 className="heading">Simple Todos</h1>
           <ul className="todos-list">
-            {/* {todosList.map(eachTodo =>(
+            {todosList.map(eachTodo =>(
               <TodoItem
                 key={eachTodo.id}
                 todoDetails={eachTodo}
                 deleteTodo={this.deleteTodo}
               />
             ))
-            // */}
+            }
           </ul>
         </div>
       </div>
